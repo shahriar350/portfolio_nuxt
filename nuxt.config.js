@@ -3,7 +3,6 @@
 
 import vuetify from 'vite-plugin-vuetify'
 export default defineNuxtConfig({
-    ssr: false,
     target: 'static',
     devtools: {enabled: true},
     css: ['vuetify/styles'], // vuetify ships precompiled css, no need to import sass

@@ -6,12 +6,16 @@
     "dev": "nuxt dev",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
-    "postinstall": "nuxt prepare"
+    "postinstall": "nuxt prepare",
+    "start": "nuxt start",
+    "deploy": "push-dir --dir=dist --branch=gh-pages --cleanup"
+
   },
   "devDependencies": {
     "@nuxt/devtools": "latest",
     "@types/node": "^18",
     "nuxt": "^3.6.1",
+    "push-dir": "^0.4.1",
     "vuetify": "^3.3.5"
   },
   "dependencies": {
